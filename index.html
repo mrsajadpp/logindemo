@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Login</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Header start-->
+  <div class="header">
+    <center><h4 class="header-text">Login</h4>
+    </center>
+  </div>
+  <!--Header end-->
+  <!--Body start-->
+  <div class="main-body">
+     <center><h4 class="login-text" id="loginText">Please Login</h4></center>
+    <!--Login section start-->
+    <div class="login-box">
+      <div class="choose-file-box">
+       <center><input id="Prof" class="choose-file Prof" type="file"></center>
+       <center><p class="choose">Choose a profile photo</p></center>
+      </div>
+      <input class="logData" type="text" name="" id="FirstName" placeholder="First Name">
+      <input class="logData" type="text" name="" id="LastName" placeholder="Last Name">
+      <input class="logData" classlogData type="email" name="" id="Email" placeholder="Email">
+      <input class="logData" type="password" name="" id="Password" placeholder="Password">
+      <button onclick="login()" class="log-btn" id="loginButton" type="submit">Login</button>
+    </div>
+    <!--Login section end-->
+    
+    <!--Profile section start-->
+    <div class="profile-box">
+       <center><img id="Photo" class="profile1" src="images/IMG_20220320_073710_706.jpg" alt="" /></center>
+       <center><h3 class="name"><span id="firstName">Unknown</span><span id="lastName"> User</span></h3></center>
+       <center><p id="mail" class="email">example@email.com</p></center>
+    </div>
+    <!--Profile section end-->
+    <!--Logout section start-->
+     <center><button onclick="logout()" class="logout-btn" type="submit">Logout</button></center>
+    <!--Logout section end-->
+  </div>
+  <!--Body end-->
+  <!--Footer start-->
+  <div>
+    ....
+  </div>
+  <!--Footer end-->
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
