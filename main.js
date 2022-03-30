@@ -29,7 +29,7 @@ function login() {
   };
     if(dp.value){
     localStorage.setItem("Picture",dp.value);
-    photo.innerHTML = dp.value;
+    photo.src = dp.value;
     console.log(localStorage.getItem("Picture"));
   };
   console.log("User " + firstName.value + " Logged");
@@ -51,7 +51,7 @@ if (localStorage.getItem("Email")) {
     mailc.innerText = localStorage.getItem("Email");
 };
 if (localStorage.getItem("Picture")) {
-    photo.innerHTML = localStorage.getItem("Picture");
+    photo.src = localStorage.getItem("Picture");
     //console.log(localStorage.getItem("Picture"));
 };
 //Logout start
