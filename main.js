@@ -34,8 +34,8 @@ function login() {
   };
   console.log("User " + firstName.value + " Logged");
   //location.reload();
-};
 location.reload();
+};
 //Login end
 if (localStorage.getItem("First Name")) {
     text.innerText = "Welcome " +  localStorage.getItem("First Name");
