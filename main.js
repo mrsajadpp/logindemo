@@ -34,7 +34,6 @@ function login() {
     location.reload();
   };
   console.log("User " + firstName.value + " Logged");
-  //location.reload();
 };
 //Login end
 if (localStorage.getItem("First Name")) {
