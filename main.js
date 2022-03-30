@@ -31,9 +31,10 @@ function login() {
     localStorage.setItem("Picture",dp.value);
     photo.src = dp.value;
     console.log(localStorage.getItem("Picture"));
+    location.reload();
   };
   console.log("User " + firstName.value + " Logged");
-  location.reload();
+  //location.reload();
 };
 //Login end
 if (localStorage.getItem("First Name")) {
